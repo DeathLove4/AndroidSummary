@@ -6,3 +6,8 @@
 system package:调用手机系统的一些重要参数的工具类
     ScreenUtil.java:与手机屏幕参数相关的工具类
     SystemUtil.java:调用手机信息
+
+2020年11月10日14:57:14
+NumUtil.java:数字处理的工具类
+PhoneUtil.java:电话号码处理的工具类
+VpSwipeRefreshLayout.java:用于包裹viewpager时解决滑动冲突，如果不处理，viewpager左右滑动时很容易触发 SwipeRefreshLayout 的垂直刷新事件
