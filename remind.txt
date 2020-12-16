@@ -11,3 +11,7 @@ system package:调用手机系统的一些重要参数的工具类
 NumUtil.java:数字处理的工具类
 PhoneUtil.java:电话号码处理的工具类
 VpSwipeRefreshLayout.java:用于包裹viewpager时解决滑动冲突，如果不处理，viewpager左右滑动时很容易触发 SwipeRefreshLayout 的垂直刷新事件
+
+2020年12月16日16:46:53
+LeakDialogFragment.java
+解决 dialogFragment 内存泄漏问题
