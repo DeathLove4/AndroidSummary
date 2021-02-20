@@ -19,3 +19,7 @@ LeakDialogFragment.java
 2021年01月08日09:40:59
 utils package:一些常用的简单方法
 listeners.java 针对一些控件的监听方法内做特殊处理
+
+2021年02月20日11:45:46
+加入 gson:2.8.6 引用
+Common.java:主要封装一些公共的方法(加入对象和对象数据的深拷贝方法)
