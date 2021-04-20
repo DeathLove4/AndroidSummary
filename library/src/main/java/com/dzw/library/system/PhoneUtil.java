@@ -56,9 +56,14 @@ public class PhoneUtil {
                 }
             }
         }
+        if (s.startsWith(".")) {
+            return String.valueOf(0);
+        }
         if (s.indexOf(".") > 0) {
-            s = s.replaceAll("0+?$", "");//去掉多余的0
-            s = s.replaceAll("[.]$", "");//如最后一位是.则去掉
+            //去掉多余的0
+            s = s.replaceAll("0+?$", "");
+            //如最后一位是.则去掉
+            s = s.replaceAll("[.]$", "");
         }
         return s;
     }
