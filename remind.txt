@@ -27,3 +27,7 @@ Common.java:主要封装一些公共的方法(加入对象和对象数据的深�
 2021年04月20日10:29:24
 加入 FileUtil.java 和 UriUtils.java
 封装了一些对文件的处理方法
+
+2022年01月11日15:29:30
+修改根据文件uri获取真实路径的方式
+新增 GetFliePathFromUriUtils.java 进行处理获取真实路径，目前该方案已经兼容到 Android 12，API32
