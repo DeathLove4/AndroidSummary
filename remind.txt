@@ -31,3 +31,9 @@ Common.java:主要封装一些公共的方法(加入对象和对象数据的深�
 2022年01月11日15:29:30
 修改根据文件uri获取真实路径的方式
 新增 GetFliePathFromUriUtils.java 进行处理获取真实路径，目前该方案已经兼容到 Android 12，API32
+
+2022年03月18日13:51:23
+1.将项目需要依赖的 Library 全部归结到 config.gradle 文件中进行统一管理
+2.添加 ActivityLifeCycleObserver.kt ，用于处理 fragment 中 onActivityCreated() 废弃问题
+3.新增 StringUtils.kt ，用于处理一些与 String 相关的操作
+    本次主要加入清除加载在 StringBuilder 上的 Spannable子类 方法，用于避免使用了 ClickSpan 后出现内存泄漏
