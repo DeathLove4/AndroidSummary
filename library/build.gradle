@@ -41,4 +41,5 @@ dependencies {
     implementation rootProject.ext.libraries.viewpager2
     implementation rootProject.ext.libraries.swiperefreshlayout
     implementation rootProject.ext.libraries.gson
+    implementation rootProject.ext.libraries.kotlin_reflect
 }
