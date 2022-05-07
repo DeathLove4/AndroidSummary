@@ -41,3 +41,6 @@ Common.java:主要封装一些公共的方法(加入对象和对象数据的深�
 2022年04月11日14:44:16
 1.新增 DataUtils.kt，用于使用 kotlin 语言处理一些跟数据有关的内容
 2.org.jetbrains.kotlin:kotlin-reflect:1.6.10 - kotlin 中使用反射的 jar 包，必须添加了之后才能正常使用反射
+
+2022年05月07日16:42:39
+1.新增 ScreenUiils.kt ，记录一些屏幕数据获取相关的操作方法
